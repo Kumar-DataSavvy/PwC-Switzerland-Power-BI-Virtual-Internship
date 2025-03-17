@@ -27,29 +27,6 @@ Through this internship, I gained hands-on experience in data analytics, storyte
 
 ## Project Details:
 
-### Table of Contents:
-#### • Flow of work-:
-
-Step 1- Upload Data
-
-Step 2-Cleaning data
-
-Step 3-Transform data
-
-Step 4-Load data
-
-#### • Data Preparation
-
-Data Modelling
-
-Writing DAX
-
-#### • Data Visualization
-
-#### • Data Analysis
-
-#### • Insights
-
 #### 1. Call Centre Trends
 Visualizing customer and agent behavior:<br>
 Create a dashboard in Power BI for Call Centre Manager that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset.
