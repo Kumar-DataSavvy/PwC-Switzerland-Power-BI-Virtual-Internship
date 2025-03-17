@@ -116,22 +116,54 @@ The Call Center Manager Page: Shows KPIs including overall customer satisfaction
 ##### Data Analysis
 
 Measures used in visualization are:<br>
-Total Calls = COUNT(Sheet1[Call Id]) <br>
-Target_Rating = 4.5 <br>
-Avg Speed Answer = DIVIDE(SUM(Sheet1[Speed of answer in seconds]),<br>
+
+
+1.Total Calls = COUNT(Sheet1[Call Id]) <br>
+
+
+2.Target_Rating = 4.5 <br>
+
+
+3.Avg Speed Answer = DIVIDE(SUM(Sheet1[Speed of answer in seconds]),<br>
                          COUNTROWS(FILTER(Sheet1, Sheet1[Answered (Y/N)]="Y")))<br>
-Avg Satisfaction Rating = CALCULATE(AVERAGE(Sheet1[Satisfaction rating]),<br>
+
+                         
+4.Avg Satisfaction Rating = CALCULATE(AVERAGE(Sheet1[Satisfaction rating]),<br>
                           FILTER(Sheet1, Sheet1[Answered (Y/N)]="Y"))<br>
-Avg Handle Time = AVERAGEX(FILTER(Sheet1, Sheet1[Answered (Y/N)]="Y"<br>
+
+                          
+5.Avg Handle Time = AVERAGEX(FILTER(Sheet1, Sheet1[Answered (Y/N)]="Y"<br>
                            ),Sheet1[AverageTalkDurationInMinutes])<br>
-Answered Calls = CALCULATE(COUNT(Sheet1[Call Id]), <br>
+
+                           
+6.Answered Calls = CALCULATE(COUNT(Sheet1[Call Id]), <br>
                   Sheet1[Answered (Y/N)]="Y") <br>
-Abandoned Calls = CALCULATE(COUNT(Sheet1[Call Id]),  <br>
+
+                  
+7.Abandoned Calls = CALCULATE(COUNT(Sheet1[Call Id]),  <br>
                   Sheet1[Answered (Y/N)]="N") <br>
+                  
 
 Calculated Columns used in visualization are:<br>
-Call Hour = HOUR(Sheet1[Time]) <br>
-AverageTalkDurationInMinutes = HOUR(Sheet1[AvgTalkDuration]*60 <br>
+
+
+1.Call Hour = HOUR(Sheet1[Time]) <br>
+
+
+2.AverageTalkDurationInMinutes = HOUR(Sheet1[AvgTalkDuration]*60 <br>
                               + MINUTE(Sheet1[AvgTalkDuration]) <br>
                               +SECOND(Sheet1[AvgTalkDuration]/60)) <br>
+
+##### Insights As shown by Data Visualization,
+It can be deduced that:
+
+• The average satisfaction rating is 3.40
+
+• 4054 calls were answered and 3646 issues resolved
+
+• Jim has the highest satisfaction rating
+
+• The average speed of answer is 67.52 seconds
+
+• Jim has answered total 536 call which is highest whereas Stewart answered lowest number of calls i.e. 477
 
