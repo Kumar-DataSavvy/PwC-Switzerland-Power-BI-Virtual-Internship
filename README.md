@@ -2,9 +2,9 @@
 PwC Switzerland Power BI Job Simulation on Forage - March 2025
 
 ## Description
-PwC Virtual Internship – Business Intelligence Analyst
-Client: PhoneNow
-Tools Used: Power BI, Excel
+-PwC Virtual Internship – Business Intelligence Analyst
+-Client: PhoneNow
+-Tools Used: Power BI, Excel
 
 As part of the PwC Virtual Internship, I worked on three key industrial tasks for PhoneNow, leveraging Power BI to provide data-driven insights:
 
