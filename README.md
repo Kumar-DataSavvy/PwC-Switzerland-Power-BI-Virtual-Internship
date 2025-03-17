@@ -144,3 +144,4 @@ It can be deduced that:
 
 • Jim has answered total 536 call which is highest whereas Stewart answered lowest number of calls i.e. 477
 
+![Report Page](1. Call Centre Trends/Call Centre Trends Report Image.PNG)
