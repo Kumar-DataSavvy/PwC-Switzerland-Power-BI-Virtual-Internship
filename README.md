@@ -84,7 +84,7 @@ Data transformation was done in Power Query and the dataset was loaded into Micr
 
 The call canter dataset is given by a table named:
 
-• Call Center; which has 10 columns and 5000 rows of observation.
+Call Center; which has 10 columns and 5000 rows of observation.
 
 | Column Name   | Description   | 
 |------------|------------|
@@ -98,4 +98,18 @@ The call canter dataset is given by a table named:
 | Speed of answer(in seconds) | Represents the speed of answer in seconds |
 | AvgTalkDuration | Represents the average talk duration of call |
 | Satisfaction rating | Represents the satisfaction rating of the agent during the call |
+
+##### Step 3-Transform data
+
+Data Cleaning and transformation for the dataset were done in power query as follows:
+
+Unnecessary columns were removed <br>
+Each of the columns in the table was validated to have the correct data type <br>
+Unnecessary rows were removed
+
+##### Data Visualization
+
+Data visualization for the datasets was done in Microsoft Power BI Desktop:
+
+The Call Center Manager Page: Shows KPIs including overall customer satisfaction, overall calls answered/abandoned, calls by time, average speed of answer, agents performance quadrant -> average handle time(talk duration) vs calls answered.
 
