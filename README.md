@@ -28,7 +28,7 @@ Through this internship, I gained hands-on experience in data analytics, storyte
 ## Project Details:
 
 ### Table of Contents:
-• Flow of work-:
+#### • Flow of work-:
 
 Step 1- Upload Data
 
@@ -38,14 +38,50 @@ Step 3-Transform data
 
 Step 4-Load data
 
-• Data Preparation
+#### • Data Preparation
 
 Data Modelling
 
 Writing DAX
 
-• Data Visualization
+#### • Data Visualization
 
-• Data Analysis
+#### • Data Analysis
 
-• Insights
+#### • Insights
+
+#### 1. Call Centre Trends
+Visualizing customer and agent behavior:<br>
+Create a dashboard in Power BI for Call Centre Manager that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset.
+
+##### •Problem Statement
+
+The purpose of this analysis is to create a dashboard in PowerBI for call canter manager that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. 
+
+Possible KPIs include:
+
+• Overall customer satisfaction
+
+• Overall calls answered/abandoned
+
+• Calls by time
+
+• Average speed of answer
+
+• Agents performance quadrant -> average handle time(talk duration) vs calls answered
+
+• Flow of work
+
+##### Step 1- Upload Data
+
+The Dataset used for this analysis was presented by PWC Switzerland and available at their official website page.
+
+(I also Uploaded the Dataset in the Task file folder.)
+
+##### Step 2-Cleaning data
+
+Data transformation was done in Power Query and the dataset was loaded into Microsoft Power BI Desktop for modelling.
+
+The call canter dataset is given by a table named:
+
+• Call Center which has 10 columns and 5000 rows of observation.
