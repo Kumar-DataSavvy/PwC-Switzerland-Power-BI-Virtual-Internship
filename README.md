@@ -113,3 +113,25 @@ Data visualization for the datasets was done in Microsoft Power BI Desktop:
 
 The Call Center Manager Page: Shows KPIs including overall customer satisfaction, overall calls answered/abandoned, calls by time, average speed of answer, agents performance quadrant -> average handle time(talk duration) vs calls answered.
 
+##### Data Analysis
+
+Measures used in visualization are:<br>
+Total Calls = COUNT(Sheet1[Call Id]) <br>
+Target_Rating = 4.5 <br>
+Avg Speed Answer = DIVIDE(SUM(Sheet1[Speed of answer in seconds]),<br>
+                         COUNTROWS(FILTER(Sheet1, Sheet1[Answered (Y/N)]="Y")))<br>
+Avg Satisfaction Rating = CALCULATE(AVERAGE(Sheet1[Satisfaction rating]),<br>
+                          FILTER(Sheet1, Sheet1[Answered (Y/N)]="Y"))<br>
+Avg Handle Time = AVERAGEX(FILTER(Sheet1, Sheet1[Answered (Y/N)]="Y"<br>
+                           ),Sheet1[AverageTalkDurationInMinutes])<br>
+Answered Calls = CALCULATE(COUNT(Sheet1[Call Id]), <br>
+                  Sheet1[Answered (Y/N)]="Y") <br>
+Abandoned Calls = CALCULATE(COUNT(Sheet1[Call Id]),  <br>
+                  Sheet1[Answered (Y/N)]="N") <br>
+
+Calculated Columns used in visualization are:<br>
+Call Hour = HOUR(Sheet1[Time]) <br>
+AverageTalkDurationInMinutes = HOUR(Sheet1[AvgTalkDuration]*60 <br>
+                              + MINUTE(Sheet1[AvgTalkDuration]) <br>
+                              +SECOND(Sheet1[AvgTalkDuration]/60)) <br>
+
