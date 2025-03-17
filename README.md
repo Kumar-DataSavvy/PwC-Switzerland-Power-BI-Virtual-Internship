@@ -85,3 +85,9 @@ Data transformation was done in Power Query and the dataset was loaded into Micr
 The call canter dataset is given by a table named:
 
 • Call Center which has 10 columns and 5000 rows of observation.
+
+| Column 1   | Column 2   | 
+|------------|------------|
+| Call Id | Represents every unique observation in the dataset| 
+| Agent | Describes the name of the agent | 
+
