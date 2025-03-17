@@ -24,3 +24,28 @@ Evaluated hiring trends, promotion equity.<br>
 Developed a visual report to showcase inclusivity progress and recommend data-driven HR policies.
 
 Through this internship, I gained hands-on experience in data analytics, storytelling, and dashboard development, translating complex datasets into meaningful business insights.
+
+## Project Details:
+
+### Table of Contents:
+• Flow of work-:
+
+Step 1- Upload Data
+
+Step 2-Cleaning data
+
+Step 3-Transform data
+
+Step 4-Load data
+
+• Data Preparation
+
+Data Modelling
+
+Writing DAX
+
+• Data Visualization
+
+• Data Analysis
+
+• Insights
