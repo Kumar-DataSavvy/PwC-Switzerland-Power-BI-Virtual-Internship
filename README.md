@@ -70,7 +70,7 @@ Possible KPIs include:
 
 • Agents performance quadrant -> average handle time(talk duration) vs calls answered
 
-#### Flow of work
+##### Flow of work
 
 ##### Step 1- Upload Data
 
@@ -84,10 +84,18 @@ Data transformation was done in Power Query and the dataset was loaded into Micr
 
 The call canter dataset is given by a table named:
 
-• Call Center which has 10 columns and 5000 rows of observation.
+• Call Center; which has 10 columns and 5000 rows of observation.
 
-| Column 1   | Column 2   | 
+| Column Name   | Description   | 
 |------------|------------|
 | Call Id | Represents every unique observation in the dataset| 
 | Agent | Describes the name of the agent | 
+| Date | Describes the date of the call |
+| Time | Represents the time of the call |
+| Topic | Describes the topic of the caller |
+| Answered | (Y/N) Describes if the call was Answered or not |
+| Resolved | Describes if the problem was Resolved or not |
+| Speed of answer(in seconds) | Represents the speed of answer in seconds |
+| AvgTalkDuration | Represents the average talk duration of call |
+| Satisfaction rating | Represents the satisfaction rating of the agent during the call |
 
