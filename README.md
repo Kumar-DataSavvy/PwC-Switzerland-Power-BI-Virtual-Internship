@@ -27,11 +27,11 @@ Through this internship, I gained hands-on experience in data analytics, storyte
 
 ## Project Details:
 
-#### 1. Call Centre Trends
+### 1. Call Centre Trends
 Visualizing customer and agent behavior:<br>
 Create a dashboard in Power BI for Call Centre Manager that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset.
 
-##### •Problem Statement
+#### •Problem Statement
 
 The purpose of this analysis is to create a dashboard in PowerBI for call canter manager that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. 
 
@@ -47,15 +47,15 @@ Possible KPIs include:
 
 • Agents performance quadrant -> average handle time(talk duration) vs calls answered
 
-##### Flow of work
+#### Flow of work
 
-##### Step 1- Upload Data
+#### Step 1- Upload Data
 
 The Dataset used for this analysis was presented by PWC Switzerland and available at their official website page.
 
 (I also Uploaded the Dataset in the Task file folder.)
 
-##### Step 2-Cleaning data
+#### Step 2-Cleaning data
 
 Data transformation was done in Power Query and the dataset was loaded into Microsoft Power BI Desktop for modelling.
 
@@ -76,7 +76,7 @@ Call Center; which has 10 columns and 5000 rows of observation.
 | AvgTalkDuration | Represents the average talk duration of call |
 | Satisfaction rating | Represents the satisfaction rating of the agent during the call |
 
-##### Step 3-Transform data
+#### Step 3-Transform data
 
 Data Cleaning and transformation for the dataset were done in power query as follows:
 
@@ -84,13 +84,13 @@ Unnecessary columns were removed <br>
 Each of the columns in the table was validated to have the correct data type <br>
 Unnecessary rows were removed
 
-##### Data Visualization
+#### Data Visualization
 
 Data visualization for the datasets was done in Microsoft Power BI Desktop:
 
 The Call Center Manager Page: Shows KPIs including overall customer satisfaction, overall calls answered/abandoned, calls by time, average speed of answer, agents performance quadrant -> average handle time(talk duration) vs calls answered.
 
-##### Data Analysis
+#### Data Analysis
 
 Measures used in visualization are:<br>
 
@@ -131,7 +131,7 @@ Calculated Columns used in visualization are:<br>
                               + MINUTE(Sheet1[AvgTalkDuration]) <br>
                               +SECOND(Sheet1[AvgTalkDuration]/60)) <br>
 
-##### Insights As shown by Data Visualization,
+#### Insights As shown by Data Visualization,
 It can be deduced that:
 
 • The average satisfaction rating is 3.40
