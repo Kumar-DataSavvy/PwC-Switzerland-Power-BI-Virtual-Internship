@@ -70,7 +70,7 @@ Possible KPIs include:
 
 • Agents performance quadrant -> average handle time(talk duration) vs calls answered
 
-• Flow of work
+#### Flow of work
 
 ##### Step 1- Upload Data
 
