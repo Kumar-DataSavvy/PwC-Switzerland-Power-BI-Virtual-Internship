@@ -31,7 +31,7 @@ Through this internship, I gained hands-on experience in data analytics, storyte
 Visualizing customer and agent behavior:<br>
 Create a dashboard in Power BI for Call Centre Manager that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset.
 
-#### •Problem Statement
+#### Problem Statement
 
 The purpose of this analysis is to create a dashboard in PowerBI for call canter manager that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. 
 
@@ -49,13 +49,13 @@ Possible KPIs include:
 
 #### Flow of work
 
-#### Step 1- Upload Data
+#### Upload Data
 
 The Dataset used for this analysis was presented by PWC Switzerland and available at their official website page.
 
 (I also Uploaded the Dataset in the respective file folder.)
 
-#### Step 2-Cleaning data
+#### Clean data
 
 Data transformation was done in Power Query and the dataset was loaded into Microsoft Power BI Desktop for modelling.
 
@@ -76,7 +76,7 @@ Call Center; which has 10 columns and 5000 rows of observation.
 | AvgTalkDuration | Represents the average talk duration of call |
 | Satisfaction rating | Represents the satisfaction rating of the agent during the call |
 
-#### Step 3-Transform data
+#### Transform data
 
 Data Cleaning and transformation for the dataset were done in power query as follows:
 
@@ -183,13 +183,13 @@ Here are some inputs:
 
 #### Flow of work
 
-#### Step 1- Upload Data
+#### Upload Data
 
 The Dataset used for this analysis was presented by PWC Switzerland and available in their official website page.
 
 (I also Uploaded the Dataset in the respective file folder.)
 
-#### Step 2-Cleaning data
+#### Clean data
 
 Data transformation was done in Power Query and the dataset was loaded into Microsoft Power BI Desktop for modelling.
 
@@ -223,7 +223,7 @@ Customer retention(Churn Dataset) which has 23 columns and 7043 rows of observat
 | numTechTickets | Represents the number of tech tickets opened by the customer |
 | Churn | Describes if the customer is at risk of churn |
 
-#### Step 3-Transform data
+#### Transform data
 
 Data Cleaning and transformation for the dataset were done in power query as follows: 
 
@@ -231,7 +231,7 @@ Data Cleaning and transformation for the dataset were done in power query as fol
 
 • Unnecessary rows were removed
 
-Data preparation: -
+#### Data preparation
 
 Data Modelling
 
@@ -340,8 +340,6 @@ As shown by Data Visualization, It can be deduced that:
 
 Younger customers (under 3 years).
 
-Customers paying by check or bank transfer.
-
 Customers with paperless billing.
 
 Customers with monthly subscriptions.
@@ -354,15 +352,13 @@ Customers with multiple lines of service.
 
 Customers with annual subscriptions.
 
-Customers with automatic payments.
-
 • If no Tech Support, Device Protection, and Online Security are provided then the chances of customers churning are high.
 
 • payment method like Electronic check also makes a significant impact on the churning decision.
 
 • There is no relation between gender with churning.
 
-• senior citizens are less likely to churn rate.
+• senior citizens are less likely to churn.
 
 • Customers with any dependents or partners are churning less likely, whereas the non-dependents and non-partners customers are more likely to shift.
 
@@ -398,11 +394,13 @@ Task is to do the following:
 
 #### Flow of work
 
-#### Step 1- Upload Data
+#### Upload Data
 
 The Dataset used for this analysis was presented by PWC Switzerland and available at their official website page.
 
-#### Step 2-Cleaning data
+(I also Uploaded the Dataset in the respective file folder.)
+
+#### Clean data
 
 Data transformation was done in Power Query and the dataset was loaded into Microsoft Power BI Desktop for modelling.
 
@@ -445,7 +443,7 @@ The Diversity & Inclusion dataset is given by a table named:
 | Years since last hire | Represents the number of years since last hire of the employee |
 | Rand | generates random number for each entry in the dataset |
 
-#### Step 3-Transform data
+#### Transform data
 
 Data Cleaning and transformation for the dataset were done in power query as follows:
 
@@ -455,7 +453,7 @@ Data Cleaning and transformation for the dataset were done in power query as fol
 
 • Unnecessary rows were filtered.
 
-Data preparation: -
+#### Data preparation
 
 Data Modelling
 
