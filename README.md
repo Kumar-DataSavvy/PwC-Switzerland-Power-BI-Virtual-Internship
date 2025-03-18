@@ -540,11 +540,12 @@ To ensure progress in diversity and inclusion in the executive level;
 • For the Executive and Director position ,female employee count as well as the promotion count is too low compared to male employee hence more women should be hired as well as promoted.
 
 **Report Page 1**
-![Report Page 1]()
+![Report Page 1](https://raw.githubusercontent.com/Kumar-DataSavvy/PwC-Switzerland-Power-BI-Virtual-Internship/refs/heads/main/3.%20Diversity%20%26%20Inclusion%20Analytics/Diversity%20%26%20Inclusion%20Report%20Page%201%20Image.PNG)
 
 **Report Page 2**
-![Report Page 2]()
+![Report Page 2](https://raw.githubusercontent.com/Kumar-DataSavvy/PwC-Switzerland-Power-BI-Virtual-Internship/refs/heads/main/3.%20Diversity%20%26%20Inclusion%20Analytics/Diversity%20%26%20Inclusion%20Report%20Page%202%20Image.PNG
+)
 
 **Report Page 3**
-![Report Page 3]()
+![Report Page 3](https://raw.githubusercontent.com/Kumar-DataSavvy/PwC-Switzerland-Power-BI-Virtual-Internship/refs/heads/main/3.%20Diversity%20%26%20Inclusion%20Analytics/Diversity%20%26%20Inclusion%20Report%20Page%203%20Image.PNG)
 
