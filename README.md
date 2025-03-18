@@ -263,85 +263,73 @@ Measures used in visualization are:
 
 3.% Yes Multiple Line = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[MultipleLines]), <br>
            'Churn-Dataset'[MultipleLines]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[MultipleLines]), 'Churn-Dataset'[MultipleLines]<>"No phone service"),0
+            CALCULATE(COUNT('Churn-Dataset'[MultipleLines]), 'Churn-Dataset'[MultipleLines]<>"No phone service"),0
 )<br>
 
 
 4.% Tech Support = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[TechSupport]), <br>
            'Churn-Dataset'[TechSupport]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[TechSupport]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[TechSupport]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 
 5.% Streaming TV = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[StreamingTV]), <br>
            'Churn-Dataset'[StreamingTV]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[StreamingTV]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[StreamingTV]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 
 6.% Streaming Movies = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[StreamingMovies]), <br>
            'Churn-Dataset'[StreamingMovies]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[StreamingMovies]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[StreamingMovies]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 
 7.% Senior Citizen = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[SeniorCitizen]),<br>
                    'Churn-Dataset'[SeniorCitizen]=1, 'Churn-Dataset'[Churn]="Yes"),<br>
-
-                   CALCULATE(COUNT('Churn-Dataset'[SeniorCitizen]), 'Churn-Dataset'[Churn]="Yes")
+                    CALCULATE(COUNT('Churn-Dataset'[SeniorCitizen]), 'Churn-Dataset'[Churn]="Yes")
                    )<br>
 
 
 8.% Phone Services = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[PhoneService]), <br>
            'Churn-Dataset'[PhoneService]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[PhoneService]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[PhoneService]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 
 9.% Partner = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[Partner]), <br>
            'Churn-Dataset'[Partner]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[Partner]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[Partner]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 
 10.% Online Security = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[OnlineSecurity]), <br>
            'Churn-Dataset'[OnlineSecurity]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[OnlineSecurity]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[OnlineSecurity]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 
 11.% Online Backup = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[OnlineBackup]), <br>
            'Churn-Dataset'[OnlineBackup]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[OnlineBackup]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[OnlineBackup]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 
 12.% No Multiple Line = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[MultipleLines]), <br>
            'Churn-Dataset'[MultipleLines]="No", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[MultipleLines]), 'Churn-Dataset'[MultipleLines]<>"No phone service"),0
+            CALCULATE(COUNT('Churn-Dataset'[MultipleLines]), 'Churn-Dataset'[MultipleLines]<>"No phone service"),0
 )<br>
 
 
 13.% Device Protection = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[DeviceProtection]), <br>
            'Churn-Dataset'[DeviceProtection]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[DeviceProtection]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[DeviceProtection]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 
 14.% Dependents = DIVIDE(CALCULATE(COUNT('Churn-Dataset'[Dependents]), <br>
            'Churn-Dataset'[Dependents]="Yes", 'Churn-Dataset'[Churn]="Yes"),<br>
-
-           CALCULATE(COUNT('Churn-Dataset'[Dependents]), 'Churn-Dataset'[Churn]="Yes"),0
+            CALCULATE(COUNT('Churn-Dataset'[Dependents]), 'Churn-Dataset'[Churn]="Yes"),0
 )<br>
 
 #### Insights
