@@ -231,7 +231,7 @@ Data Cleaning and transformation for the dataset were done in power query as fol
 
 • Unnecessary rows were removed
 
-#### Data preparation: -
+Data preparation: -
 
 Data Modelling
 
@@ -386,4 +386,165 @@ Suggestions
 **Report Page 2**
 ![Report Page 2](https://raw.githubusercontent.com/Kumar-DataSavvy/PwC-Switzerland-Power-BI-Virtual-Internship/refs/heads/main/2.%20Customer%20Retention%20Insights/Customer%20Retention%20Report%20Page%202%20Image.PNG)
 
+***
+
+### 3.Diversity & Inclusion Analytics
+#### Problem Statement
+Task is to do the following:
+
+• Define relevant KPIs in hiring, promotion, performance and turnover, and create a visualisation. 
+
+• Write what you think some root causes of their slow progress might be.
+
+#### Flow of work
+
+#### Step 1- Upload Data
+
+The Dataset used for this analysis was presented by PWC Switzerland and available at their official website page.
+
+#### Step 2-Cleaning data
+
+Data transformation was done in Power Query and the dataset was loaded into Microsoft Power BI Desktop for modelling.
+
+The Diversity & Inclusion dataset is given by a table named:
+
+• Diversity & Inclusion; which has 32 columns and 500 rows of observation
+
+| Column Name   | Description   | 
+|------------|------------|
+| Employee ID | Represents the unique number of the employee in the dataset | 
+| Gender | Describes the gender of the employee |
+| Job Level after FY20 promotions | Describes the job level of the employee after being promoted in FY20 |
+| New hire FY20? | Describes if the employee is a new hire in FY20 | 
+| FY20 Performance Rating | Represents the performance rating of the employee in FY20 |
+| Promotion in FY21? | Describes if the employee is being promoted in FY21 |
+| In base group for Promotion FY21 | Describes if the employee is being selected for promoted in FY21 |
+| Target hire balance | Describes the target hire balance of the employee |
+| FY20 leaver? | Describes if the employee is a leaver in FY20 |
+| In base group for turnover FY20 | Describes if the employee is in a group for turnover in FY20 |
+| Department @01.07.2020 | Describes the department each employee belongs to as at January 7, 2020 |
+| Leaver FY | Describes if the employee is a leaver in a FY |
+| Job Level after FY21 promotions | Describes the job level of the employee after being promoted in FY21 |
+| Last Department in FY20 | Describes the last department each employee belongs in FY20 |
+| FTE group | Describes if the employee belongs to a FTE group |
+| Time type | Describes the contract type employee |
+| Department & JL group PRA status | Describes the department and JL group PRA status of the employee |
+| Department & JL group for PRA | Describes the department and JL group PRA of the employee |
+| Job Level group PRA status | Describes the job level group PRA status of the employee |
+| Job Level group for PRA | Describes the job level group PRA of the employee |
+| Time in Job Level @01.07.2020 | Describes the time in job level of the employee |
+| Job Level before FY20 promotions | Describes the job level employee before being promoted in FY20 |
+| Promotion in FY20? | Describes if the employee is being promoted in FY20 |
+| FY19 Performance Rating | Describes the performance rating of the employee in FY19 |
+| Age group | Describes the age group of the employee |
+| Age @01.07.2020 | Represents the age of the employee as at January 07, 2020 |
+| Nationality 1 | Describes the nationality of the employee in state level |
+| Region group: nationality 1 | Describes the nationality of the employee in country level |
+| Broad region group: nationality 1 | Describes the nationality of the employee in regional level |
+| Last hire date | Describes the last hire date of the employee |
+| Years since last hire | Represents the number of years since last hire of the employee |
+| Rand | generates random number for each entry in the dataset |
+
+#### Step 3-Transform data
+
+Data Cleaning and transformation for the dataset were done in power query as follows:
+
+• Each of the columns in the table was validated to have the correct data type. 
+
+• Unnecessary rows were removed. 
+
+• Unnecessary rows were filtered.
+
+Data preparation: -
+
+Data Modelling
+
+• After the dataset was cleaned and transformed, it was ready to be modelled.
+
+#### Data Visualization
+
+Data visualization for the datasets was done in Microsoft Power BI Desktop:
+
+• KPI 1 (Hiring): Employees hired at each job level, % of male and female employees hired, employee count at each job level with %female employees.
+
+• KPI 2 (Promotion(This Year 2021)): Employee count at each job level after promotion with %female employee, average time duration at each job level of male and female employees.
+
+• KPI 3 (Turnover Rate(FY 2020)): FY19 avg performance Vs FY20 Leaver(Female), FY19 avg performance Vs FY20 Leaver(Male)
+
+• KPI 4 (Performance Rating): Performance Rating Vs Employee %, Average performance rating of male and female employees, Gender wise performance rating.
+
+• KPI 5 (Executive Gender Balance): Executive Split(FY 20), Executive Split(FY 21), Executive Hired(FY 20), Promoted to Executive(FY 20).
+
+• KPI 6 (Age Group): Employee Count Vs Age Group, Employee% Vs Job level and Age Group
+
+• Diversity & Inclusion EDA
+
+#### Data Analysis
+
+Measures used in visualization are:
+
+1. #Female = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),<br>
+               'Pharma Group AG'[Gender]="Female")
+
+
+2. #Male = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),<br>
+               'Pharma Group AG'[Gender]="Male")
+
+
+3. %Female = DIVIDE([#Female], COUNT('Pharma Group AG'[Employee ID]),0)
+
+
+4. %Male = DIVIDE([#Male], COUNT('Pharma Group AG'[Employee ID]),0)
+
+
+5. Avg_Rating_Female = <br>
+CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating])<br>
+, 'Pharma Group AG'[Gender]="Female")
+
+
+6. Avg_Rating_Male = <br>
+CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating])<br>
+, 'Pharma Group AG'[Gender]="Male")
+
+
+7. Total Promotions = CALCULATE(COUNT('Pharma Group AG'[Promotion in FY20?]), 'Pharma Group AG'[Promotion in FY20?]="Y")<br>
++<br>
+CALCULATE(COUNT('Pharma Group AG'[Promotion in FY21?]), 'Pharma Group AG'[Promotion in FY21?]="Yes")
+
+
+8. Turnover Rate = DIVIDE(COUNT('Pharma Group AG'[Leaver FY]), COUNT('Pharma Group AG'[Employee ID]),0)
+
+#### Insights
+As shown by Data Visualization, It can be deduced that:
+
+• Overall, the company seems to have a good gender balance in terms of hiring, with women making up just under half (41%) of new hires. 
+
+• However, there is a significant disparity in promotion rates, with only 25% of promotions going to women. This suggests that there may be barriers in place that are preventing women from being promoted at the same rate as men.
+
+• The turnover rate is higher for women than for men. This could be due to a number of factors, including the gender pay gap, a lack of opportunities for advancement, or a hostile work environment.
+
+• Maximum hiring of employees is done from Switzerland, France & Germany respectively, hence in order to increase diversity need to hire talented employees from different part of globe.
+
+• The slow progress in the executive level is of the fact that only less than 20% female is promoted to this managerial and executive roles.
+
+• FY20 Hires vs FY21 Job Level: While the number of females hired increased slightly from FY20 (40) to FY21 (41), the number of females in senior positions (director and above) remained the same (3) in both years. This indicates a potential gap in promoting women to higher-level positions.
+
+• Women are more likely to be in lower-level positions, such as junior officers and managers, while men are more likely to be in higher-level positions, such as directors and executives. This suggests that there may be a lack of opportunities for women to progress to senior leadership positions.
+
+Suggestions
+
+To ensure progress in diversity and inclusion in the executive level;
+
+• More women should be hired and especially promoted because the gap in the ratio of men to women is quite large.
+
+• For the Executive and Director position ,female employee count as well as the promotion count is too low compared to male employee hence more women should be hired as well as promoted.
+
+**Report Page 1**
+![Report Page 1]()
+
+**Report Page 2**
+![Report Page 2]()
+
+**Report Page 3**
+![Report Page 3]()
 
