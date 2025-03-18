@@ -393,9 +393,9 @@ Suggestions
 • Offering basic services like device protection, tech support, and online security should be the primary goal. This will help the customer stay longer with the brand.
 
 **Report Page 1**
-![Report Page 1]()
+![Report Page 1](https://raw.githubusercontent.com/Kumar-DataSavvy/PwC-Switzerland-Power-BI-Virtual-Internship/refs/heads/main/2.%20Customer%20Retention%20Insights/Customer%20Retention%20Report%20Page%201%20Image.PNG)
 
 **Report Page 2**
-![Report Page 2]()
+![Report Page 2](https://raw.githubusercontent.com/Kumar-DataSavvy/PwC-Switzerland-Power-BI-Virtual-Internship/refs/heads/main/2.%20Customer%20Retention%20Insights/Customer%20Retention%20Report%20Page%202%20Image.PNG)
 
 
